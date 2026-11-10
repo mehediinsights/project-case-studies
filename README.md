@@ -6,7 +6,7 @@ This repository is a **client-friendly, public case-study collection**. It docum
 
 **[Main portfolio](https://mehedihasan.work/)** · **[All projects](https://mehedihasan.work/projects/)** · **[GitHub profile](https://github.com/mehediinsights)** · **[Discuss a project](https://mehedihasan.work/#contact)**
 
-## Flagship work
+## Flagship work — seven buyer-relevant case studies
 
 ### 1. VidRango — Multi-Format Video SaaS
 
@@ -72,14 +72,71 @@ This repository is a **client-friendly, public case-study collection**. It docum
 
 **Evidence boundary:** The website and catalog structure are public. Search Console growth, conversion lift and sales increases are **not claimed** without verified reports.
 
+### 5. EarnForAll — Membership Platform & Account Workflows
+
+**[Portfolio overview](https://mehedihasan.work/projects/#earnforall)** · **[Public website](https://earnforall.com/)**
+
+**The challenge:** A membership product needs to connect registration, account navigation, task-related experiences and rewards-oriented interfaces in a way visitors and members can understand.
+
+**My implementation focus:** Custom membership website, onboarding and dashboard experience, member navigation, referral and wallet-related UI patterns, and account/administration workflow considerations.
+
+**Relevant work areas:** Custom web application · PHP-oriented membership workflows · user/admin interfaces · account states · responsive experience.
+
+**What it demonstrates:** Designing connected user-facing and operational features, rather than building only a marketing landing page.
+
+**What buyers can verify:** The public website and portfolio overview show the product positioning and described workflow. Private dashboard code, financial systems and transaction records are not published.
+
+**Evidence boundary:** Website figures for earnings, users or payouts have **not been independently verified** and are **not** presented here as proven results, guaranteed returns or evidence of genuine payouts. No claim is made that all public-facing functionality has been independently tested.
+
+---
+
+### 6. Night Vision Insights — Specialist Content SEO & Affiliate Publishing
+
+**[Full case study](https://mehedihasan.work/projects/nightvision/)**
+
+**The challenge:** Readers researching specialist night-vision products need understandable topic groupings, helpful editorial navigation and a mobile-friendly way to compare information.
+
+**My implementation focus:** WordPress-based niche publishing structure, topic/category organization, readable product explanations and buying guides, internal discoverability and technical/on-page SEO foundations.
+
+**Relevant work areas:** WordPress · niche publishing · content information architecture · responsive editorial UX · technical SEO.
+
+**What it demonstrates:** Combining audience search intent with a usable editorial website and maintainable content structure.
+
+**What buyers can verify:** The public website referenced by the portfolio case study shows the content experience and navigation. The case study does not claim independent hardware testing or verified search rankings.
+
+**Evidence boundary:** No invented traffic growth, Search Console ranking improvement, affiliate commission or conversion-rate figures. Quantitative before/after outcomes require authenticated reports.
+
+---
+
+### 7. Performance Marketing & Attribution — Acquisition-to-Conversion Workflow
+
+**[Public technical overview](https://mehedihasan.work/performance-marketing/)**
+
+**The challenge:** Paid traffic cannot be optimized responsibly when click identity, cost, funnel steps and conversion events cannot be reconciled across ad networks, landers and tracking systems.
+
+**My documented workflow focus:**
+- Campaign setup: traffic source, geography, placement, targeting, creative, bids and budget.
+- Funnel routing: landing pages, prelanders, test variants and message-to-offer consistency.
+- Tracking: click IDs, traffic-source macros, attribution parameters and BeMob-style independent tracking workflows.
+- Conversion verification: pixels, server-to-server postbacks, event status, payout mapping and deduplication checks.
+- Optimization: zone/creative comparisons, CPA and conversion-rate analysis, source exclusions, testing discipline and budget decisions.
+
+**Relevant work areas:** Paid acquisition · affiliate marketing · BeMob · S2S postbacks · CRO · web analytics · measurement QA.
+
+**What it demonstrates:** Thinking across the **entire acquisition and attribution chain** rather than treating ad creative, code and reporting as isolated tasks.
+
+**What buyers can verify:** The public technical overview explains architecture, decision criteria and a redacted workflow example. Private ad-account access and campaign reporting are intentionally not exposed.
+
+**Evidence boundary:** This is a **workflow/technical specialization case study**, not a verified single-client campaign success story. Profit, ROAS and lift are not asserted without audited campaign-level evidence.
+
+---
+
 ## Additional publishing & digital growth work
 
 | Project | Focus | Public reference |
 | --- | --- | --- |
 | **OGROPOTRO** | Bengali digital news, structured editorial presentation and publishing workflows | [Case study](https://mehedihasan.work/projects/ogropotro/) |
-| **Night Vision Insights** | Niche publishing, search-focused content architecture and affiliate SEO | [Case study](https://mehedihasan.work/projects/nightvision/) |
 | **Somoyer Chaka** | Bengali news publishing and topic navigation | [Case study](https://mehedihasan.work/projects/somoyerchaka/) |
-| **Performance Marketing & Attribution** | Landing-page testing, click IDs, postbacks, measurement and optimization workflows | [Public overview](https://mehedihasan.work/performance-marketing/) |
 
 ## Independent concepts — explicitly distinguished from commissioned work
 
