@@ -113,3 +113,20 @@ test('returned job is a defensive copy', () => {
   assert.deepEqual(engine.get('userA', job.id).platforms, ['tiktok', 'youtube']);
   assert.equal(engine.get('userA', job.id).history.length, 1);
 });
+
+
+test('owner-facing job snapshots and idempotent reads never reveal worker lease tokens', () => {
+  const { engine, submit } = fixture();
+  const job = submit();
+  engine.moderate(job.id, 'approve');
+  const claimed = engine.claim();
+  assert.ok(claimed.leaseToken);
+  const snapshot = engine.get('userA', job.id);
+  assert.equal(snapshot.status, 'processing');
+  assert.equal(Object.hasOwn(snapshot, 'leaseToken'), false);
+  const repeated = submit();
+  assert.equal(Object.hasOwn(repeated, 'leaseToken'), false);
+  expectCode(() => engine.complete(job.id, 'guessed_token', {
+    qcPassed: true, outputs: { youtube: 'a1', tiktok: 'a2' },
+  }), 'LEASE_INVALID');
+});

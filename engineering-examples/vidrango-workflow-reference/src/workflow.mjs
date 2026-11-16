@@ -79,7 +79,11 @@ export class WorkflowEngine {
     if (!job || job.ownerId !== ownerId) {
       throw new WorkflowError('NOT_FOUND', 'Job not found');
     }
-    return copy(job);
+    // Never expose the capability token that authorizes a worker to finish a job.
+    // Worker leases belong to the trusted worker interface, not owner-facing views.
+    const snapshot = copy(job);
+    delete snapshot.leaseToken;
+    return snapshot;
   }
 
   /** Trusted moderator action; authentication/authorization belongs to the host application. */

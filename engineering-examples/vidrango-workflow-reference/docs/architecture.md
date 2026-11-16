@@ -32,6 +32,7 @@ submit + idempotency key
 - **Idempotent creation:** request key scoped to owner, with payload comparison; conflicting reuse is rejected.
 - **Tenant-scoped reads:** inaccessible records return `NOT_FOUND` rather than leaking existence.
 - **Worker fencing:** a token and expiry prevent old workers from submitting late results.
+- **Worker-token secrecy in public views:** owner-scoped status responses omit the active worker lease token; only a trusted worker claim receives it.
 - **Bounded retries:** exponential backoff and terminal failure after `maxAttempts`.
 - **Fail-closed QC:** a success claim requires exactly one safe output identifier for every requested platform; QC failure exposes no outputs.
 - **Dependency-free automated tests:** deterministic clock/ID injection allows edge-case tests.
