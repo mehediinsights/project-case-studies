@@ -1,0 +1,14 @@
+{
+  "name": "leadnoria-research-reference",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent evidence-first B2B research workflow example",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/pipeline.mjs && node --check examples/demo.mjs",
+    "demo": "node examples/demo.mjs"
+  },
+  "license": "UNLICENSED"
+}

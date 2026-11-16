@@ -6,9 +6,14 @@ This repository is a **client-friendly, public case-study collection**. It docum
 
 **[Main portfolio](https://mehedihasan.work/)** · **[All projects](https://mehedihasan.work/projects/)** · **[GitHub profile](https://github.com/mehediinsights)** · **[Discuss a project](https://mehedihasan.work/#contact)**
 
-## Engineering source example (independent demo)
+## Engineering source examples (independent demos)
 
-**[VidRango-inspired media job workflow — source + tests](engineering-examples/vidrango-workflow-reference/)** showcases moderation gating, idempotency, lease fencing, retries, per-user reads and a fail-closed QC step. This is an **original standalone reference implementation**, **not** the deployed VidRango source code or its production architecture. The included tests are for the demo only.
+- **[VidRango-inspired media job workflow — source + tests](engineering-examples/vidrango-workflow-reference/)** illustrates moderation gating, idempotency, worker leases, bounded retries and a fail-closed QC step.
+- **[LeadNoria-inspired B2B research workflow — source + 15 automated tests](engineering-examples/leadnoria-research-reference/)** illustrates owner-scoped business discovery, deduplication, source-linked website observations, human verification, explainable service matching and research review without outbound sending.
+
+Both examples are original, separately written reference implementations—not private production code, audits of the live systems or evidence of identical production architecture.
+
+**LeadNoria public overview:** [Evidence-first B2B client research](https://mehedihasan.work/leadnoria/) describes an internal research workspace, not a public send-ready lead list or permission to contact.
 
 ---
 

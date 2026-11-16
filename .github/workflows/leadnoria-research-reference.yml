@@ -1,0 +1,24 @@
+name: LeadNoria reference demo checks
+on:
+  push:
+    paths:
+      - 'engineering-examples/leadnoria-research-reference/**'
+      - '.github/workflows/leadnoria-research-reference.yml'
+  pull_request:
+    paths:
+      - 'engineering-examples/leadnoria-research-reference/**'
+      - '.github/workflows/leadnoria-research-reference.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run check
+        working-directory: engineering-examples/leadnoria-research-reference
+      - run: npm test
+        working-directory: engineering-examples/leadnoria-research-reference
