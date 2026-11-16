@@ -1,0 +1,22 @@
+name: VidRango workflow reference tests
+on:
+  push:
+    paths:
+      - 'engineering-examples/vidrango-workflow-reference/**'
+      - '.github/workflows/vidrango-workflow-reference.yml'
+  pull_request:
+    paths:
+      - 'engineering-examples/vidrango-workflow-reference/**'
+      - '.github/workflows/vidrango-workflow-reference.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test
+        working-directory: engineering-examples/vidrango-workflow-reference

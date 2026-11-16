@@ -6,6 +6,12 @@ This repository is a **client-friendly, public case-study collection**. It docum
 
 **[Main portfolio](https://mehedihasan.work/)** · **[All projects](https://mehedihasan.work/projects/)** · **[GitHub profile](https://github.com/mehediinsights)** · **[Discuss a project](https://mehedihasan.work/#contact)**
 
+## Engineering source example (independent demo)
+
+**[VidRango-inspired media job workflow — source + tests](engineering-examples/vidrango-workflow-reference/)** showcases moderation gating, idempotency, lease fencing, retries, per-user reads and a fail-closed QC step. This is an **original standalone reference implementation**, **not** the deployed VidRango source code or its production architecture. The included tests are for the demo only.
+
+---
+
 ## Flagship work — seven buyer-relevant case studies
 
 ### 1. VidRango — Multi-Format Video SaaS
