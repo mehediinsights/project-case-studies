@@ -13,7 +13,7 @@ This repository is a **client-friendly, public case-study collection**. It docum
 | **[VidRango](https://mehedihasan.work/projects/vidrango/)** | Organizes a source video into platform-specific outputs and accompanying publishing assets. | A connected preparation-and-delivery workflow; **no verified time saved or customer-growth metrics claimed**. [Public product](https://vidrango.com/) |
 | **[LeadNoria](https://mehedihasan.work/projects/leadnoria/)** | Connects company research, website observations, evidence-based service matching and internal prospect review. | More traceable research decisions by design; **private system under active validation, with no verified sales or revenue outcome claimed**. [Public overview](https://mehedihasan.work/leadnoria/) |
 
-**Source-code disclosure:** Both deployed products retain private application code, configuration, credentials and operational data. Only general-purpose, independently written engineering examples are public; they do not reproduce the production platforms.
+**Source-code disclosure:** This repository does not contain either product's deployed application code, infrastructure configuration, credentials or operational data. Its general-purpose examples are independently written and do not reproduce the production platforms. Production repository access and infrastructure security must be reviewed separately.
 
 ## Flagship work — eight buyer-relevant case studies
 
