@@ -6,18 +6,16 @@ This repository is a **client-friendly, public case-study collection**. It docum
 
 **[Main portfolio](https://mehedihasan.work/)** · **[All projects](https://mehedihasan.work/projects/)** · **[GitHub profile](https://github.com/mehediinsights)** · **[Discuss a project](https://mehedihasan.work/#contact)**
 
-## Engineering source examples (independent demos)
+## Featured product value
 
-- **[VidRango-inspired media job workflow — source + tests](engineering-examples/vidrango-workflow-reference/)** illustrates moderation gating, idempotency, worker leases, bounded retries and a fail-closed QC step.
-- **[LeadNoria-inspired B2B research workflow — source + 15 automated tests](engineering-examples/leadnoria-research-reference/)** illustrates owner-scoped business discovery, deduplication, source-linked website observations, human verification, explainable service matching and research review without outbound sending.
+| Product | What it does | User benefit and verification boundary |
+| --- | --- | --- |
+| **[VidRango](https://mehedihasan.work/projects/vidrango/)** | Organizes a source video into platform-specific outputs and accompanying publishing assets. | A connected preparation-and-delivery workflow; **no verified time saved or customer-growth metrics claimed**. [Public product](https://vidrango.com/) |
+| **[LeadNoria](https://mehedihasan.work/projects/leadnoria/)** | Connects company research, website observations, evidence-based service matching and internal prospect review. | More traceable research decisions by design; **private system under active validation, with no verified sales or revenue outcome claimed**. [Public overview](https://mehedihasan.work/leadnoria/) |
 
-Both examples are original, separately written reference implementations—not private production code, audits of the live systems or evidence of identical production architecture.
+**Source-code disclosure:** Both deployed products retain private application code, configuration, credentials and operational data. Only general-purpose, independently written engineering examples are public; they do not reproduce the production platforms.
 
-**LeadNoria public overview:** [Evidence-first B2B client research](https://mehedihasan.work/leadnoria/) describes an internal research workspace, not a public send-ready lead list or permission to contact.
-
----
-
-## Flagship work — seven buyer-relevant case studies
+## Flagship work — eight buyer-relevant case studies
 
 ### 1. VidRango — Multi-Format Video SaaS
 
@@ -33,9 +31,22 @@ Both examples are original, separately written reference implementations—not p
 
 **Evidence boundary:** This is a public product and a portfolio case study; production infrastructure and source code are not made public here. No fabricated subscriber, revenue or processing-performance claims.
 
+
 ---
 
-### 2. Kinivalo — Custom Commerce & Fulfilment Operations
+### 2. LeadNoria — Evidence-First B2B Research Workspace (Under Active Validation)
+
+**[Public presentation](https://mehedihasan.work/leadnoria/)** · **[Portfolio case study](https://mehedihasan.work/projects/leadnoria/)**
+
+**The problem:** Scattered business directories, website findings and contact records make it hard to distinguish relevant, traceable opportunities from unsupported assumptions.
+
+**What the platform is designed to do:** Keep discovery, qualification, bounded website observations, service relevance and internal review in a connected private workspace. This is not a public lead database.
+
+**Potential benefit:** Less context switching, source-linked findings and clearer handoff for human decisions. These are workflow benefits, **not independently measured productivity, lead, reply or revenue results**.
+
+**Evidence boundary:** The public presentation can be inspected; the private dashboard, prospect records, internal algorithms and sending controls are not exposed. The live end-to-end client-acquisition outcome is not verified.
+
+### 3. Kinivalo — Custom Commerce & Fulfilment Operations
 
 **[Full case study](https://mehedihasan.work/projects/kinivalo-bd/)** · **[Store](https://kinivalo.com/)**
 
@@ -51,7 +62,7 @@ Both examples are original, separately written reference implementations—not p
 
 ---
 
-### 3. Mohammadpur News — Bilingual Publishing & Newsroom Tools
+### 4. Mohammadpur News — Bilingual Publishing & Newsroom Tools
 
 **[Full case study](https://mehedihasan.work/projects/mohammadpurnews/)** · **[Bangla site](https://mohammadpurnews.com/)** · **[English edition](https://mohammadpurnews.com/english/)** · **[Newsroom digital tools](https://mohammadpurnews.com/english/tools/)**
 
@@ -71,7 +82,7 @@ Both examples are original, separately written reference implementations—not p
 
 ---
 
-### 4. PurePetsFood — WooCommerce Product Publishing & SEO
+### 5. PurePetsFood — WooCommerce Product Publishing & SEO
 
 **[Full case study](https://mehedihasan.work/projects/purepets/)** · **[Store](https://www.purepetsfood.com/)**
 
@@ -83,7 +94,7 @@ Both examples are original, separately written reference implementations—not p
 
 **Evidence boundary:** The website and catalog structure are public. Search Console growth, conversion lift and sales increases are **not claimed** without verified reports.
 
-### 5. EarnForAll — Membership Platform & Account Workflows
+### 6. EarnForAll — Membership Platform & Account Workflows
 
 **[Portfolio overview](https://mehedihasan.work/projects/#earnforall)** · **[Public website](https://earnforall.com/)**
 
@@ -101,7 +112,7 @@ Both examples are original, separately written reference implementations—not p
 
 ---
 
-### 6. Night Vision Insights — Specialist Content SEO & Affiliate Publishing
+### 7. Night Vision Insights — Specialist Content SEO & Affiliate Publishing
 
 **[Full case study](https://mehedihasan.work/projects/nightvision/)**
 
@@ -119,7 +130,7 @@ Both examples are original, separately written reference implementations—not p
 
 ---
 
-### 7. Performance Marketing & Attribution — Acquisition-to-Conversion Workflow
+### 8. Performance Marketing & Attribution — Acquisition-to-Conversion Workflow
 
 **[Public technical overview](https://mehedihasan.work/performance-marketing/)**
 
@@ -139,6 +150,17 @@ Both examples are original, separately written reference implementations—not p
 **What buyers can verify:** The public technical overview explains architecture, decision criteria and a redacted workflow example. Private ad-account access and campaign reporting are intentionally not exposed.
 
 **Evidence boundary:** This is a **workflow/technical specialization case study**, not a verified single-client campaign success story. Profit, ROAS and lift are not asserted without audited campaign-level evidence.
+
+---
+
+## Independent engineering demonstrations
+
+- **[VidRango-inspired media job workflow — source + tests](engineering-examples/vidrango-workflow-reference/)** illustrates moderation gating, idempotency, worker leases, bounded retries and a fail-closed QC step.
+- **[LeadNoria-inspired B2B research workflow — source + 15 automated tests](engineering-examples/leadnoria-research-reference/)** illustrates owner-scoped business discovery, deduplication, source-linked website observations, human verification, explainable service matching and research review without outbound sending.
+
+Both examples are original, separately written reference implementations—not private production code, audits of the live systems or evidence of identical production architecture.
+
+**LeadNoria public overview:** [Evidence-first B2B client research](https://mehedihasan.work/leadnoria/) describes an internal research workspace, not a public send-ready lead list or permission to contact.
 
 ---
 
